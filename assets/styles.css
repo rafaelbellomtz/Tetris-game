@@ -1,0 +1,49 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(115, 145, 241);
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+
+.mini-grid {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
+
+.mini-grid div {
+    width: 20px;
+    height: 20px;
+}
